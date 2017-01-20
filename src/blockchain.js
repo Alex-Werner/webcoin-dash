@@ -6,23 +6,23 @@ var u = require('bitcoin-util')
 var genesisHeader = {
   version: 1,
   prevHash: u.nullHash,
-  merkleRoot: u.toHash('4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b'),
-  timestamp: 1231006505,
-  bits: 0x1d00ffff,
-  nonce: 2083236893
+  merkleRoot: u.toHash('e0028eb9648db56b1ac77cf090b99048a8007e2bb64b68f092c03c7f56a662c7'),
+  timestamp: 1390095618,
+  bits: 0x1e0ffff0,
+  nonce: 28917698
 }
 
 // selected block headers for verifying initial sync
 var checkpoints = [
   {
-    height: 360864,
+    height: 407452,
     header: {
       version: 3,
-      prevHash: u.toHash('00000000000000000d92953224570f521b09553194da1ca3c4b31a09a238f4f6'),
-      merkleRoot: u.toHash('37f752dccde0e359ce5b028fed86a4e2f937e2d3091d99f795096198cbf5c67c'),
-      timestamp: 1434257763,
-      bits: 0x18162043,
-      nonce: 1801335478
+      prevHash: u.toHash('0000000000010eedb86810ef7ce941fabc7d2be0c0fa2bf8dfcb5b48f573d15b'),
+      merkleRoot: u.toHash('d0761697a9ec536c444591e0ff4dbcba8c78df0263444a5229db58e600e1359d'),
+      time: 1453463939,
+      bits: 0x1b0f1aee,
+      nonce: 872384581
     }
   }
 ]

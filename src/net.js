@@ -1,19 +1,13 @@
-var magic = 0xd9b4bef9
-var defaultPort = 8333
+var magic = 0xbd6b0cbf
+var defaultPort = 9999
 
 var dnsSeeds = [
-  'seed.bitcoin.sipa.be',
-  'dnsseed.bluematt.me',
-  'dnsseed.bitcoin.dashjr.org',
-  'seed.bitcoinstats.com',
-  'seed.bitnodes.io',
-  'bitseed.xf2.org',
-  'seed.bitcoin.jonasschnelli.ch'
+    'dnsseed.darkcoin.io',
+    'dnsseed.darkcoin.qa',
+    'dnsseed.masternode.io',
+    'dnsseed.dashpay.io'
 ]
-var webSeeds = [
-  'wss://us-west.seed.webcoin.io:8192'
-  // TODO: add more
-]
+var webSeeds = []
 
 module.exports = {
   magic,
